@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  border: 25px;
+}
+
+#side {
+  background-color: #1f1f1f;
+  width: 20%;
+  height: 99vh;
+  /* padding: 25px; */
+  justify-content: center;
+  border: 25px;
+  align-items: center;
+
+}
+
+.sidebar {
+  color: #fff;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebarOpt {
+  /* padding: 25px; */
+  list-style: none;
+  font-size: 13px;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  padding: 18px;
+  cursor: pointer;
+}
+
+ul li:hover {
+  background-color: #E74B58;
+  border-radius: 20px;
+}
+
+.sidebar img {
+  width: 60px;
+  height: 50px;
+  padding-left: 12px; 
+}
+
+.sidebar .material-symbols-outlined {
+    padding: 3px;
+}
+
+button{
+    color: #fff;
+    width: 190px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #009DDC;
+    cursor: pointer;
+}
+
+button:hover{
+   background-color: #E74B58;
+}
+
+
+#middle{
+  background-color: #6D7588;
+  width: 40%;
+  height: 99vh;
+  /* padding: 25px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.feed{
+  flex-direction: row;
+  display: flex;
+  color: #fff;
+  padding: 7px;
+justify-content: space-between;
+border: 10px;
+border-style: black solid;
+cursor: pointer;
+}
+
+.tweetbox{
+  flex-direction: row;
+  display: flex;
+  color: #fff;
+  padding: 7px;
+justify-content: space-between;
+
+}
+
+.tweetInput img{
+height: 50px;
+width: 50px;
+}
+
